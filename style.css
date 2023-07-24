@@ -54,3 +54,11 @@ body{
    .contacts ul{
     list-style-type: none;
    }
+body{
+    width: 100vw;
+    height: 100vh;
+}
+form label{
+    color: white;
+    font-size: 30px;
+}
