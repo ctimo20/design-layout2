@@ -1,4 +1,5 @@
 body{
+    width: 100vw;
     margin: 0;
     padding: 0;
     }
@@ -19,39 +20,37 @@ body{
    .navbar a hover{
        color: #ffcc00;
    }
-   .container{
-       display: flex;
-       justify-content: space-between;
-       flex-wrap: wrap;
-       margin: 20px;
-       }
-       .square{
-           width: 200px;
-           height: 200px;
-           margin-bottom: 20px;
-           border-radius: 10px;
-       }
-       #square1{
-           background-color: #524a4a;
-       }
-       #square2{
-           background-color: #c7abab;
-       }
-       #square3{
-           background-color: #add8e6;
-       }
-       #square4{
-           background-color: #add8e6;
-       }
-       #rectangle{
-           width: 400px;
-           height: 460px;
-           background-color: #ffb6c1;
-           border-radius: 10px;
-       }
-       .footer{
-        background-color: #ffcc00;
-        color: #524a4a;
-        text-align: center;
-        padding: 10px;
-       }
+   .div1 img{
+    width: 100%;
+   }
+   .cardisplays{
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    background-color: #333;
+   }
+   .display{
+    margin: 5px;
+    border: 1px solid black #ccc;
+    float: left;
+    
+   }
+   .display img{
+    width: 100%;
+    height: auto;
+   }
+   .display a{
+    text-decoration: none;
+    color: black;
+   }
+   .maincointainer{
+    background-image: url(images/wave-haikei.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+   }
+   .contacts p{
+    font-size: larger;
+   }
+   .contacts ul{
+    list-style-type: none;
+   }
