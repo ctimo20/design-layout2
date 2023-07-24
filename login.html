@@ -7,28 +7,28 @@
 <body class="maincointainer">
     <div class="navbar">
     <div class="navbar-brand">
-        <a href="#" class="logo">wellknown timo</a>
+        <a href="#" class="logo">MEGA MOTORS</a>
     </div>
     <div class="navbar-links">
         <a href="index.html">Home</a>
         <a href="about.html">About</a>
-        <a href="services.html">Service</a>
+        <a href="services.html">Services</a>
         <a href="contact.html">Contact us</a>
         <a href="login.html">login</a>
         
     </div>
     </div>
     <div class="container">
-        
+        <form name="myForm" onsubmit="return validateForm()" style="text-align: center;">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" placeholder="name" required><br><br>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="email" required><br><br>
+            <input type="submit" value="Submit">
+          </form>
        
     </div>
-    <form name="myForm" onsubmit="return validateForm()" style="text-align: center;">
-        <label for="name">Name:</label>
-        <input type="text" id="name" name="name" placeholder="name"><br><br>
-        <label for="email">Email:</label>
-        <input type="text" id="email" name="email" placeholder="email"><br><br>
-        <input type="submit" value="Submit">
-      </form>
+    
    
 </body>
     <script src="script.js"></script>

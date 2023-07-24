@@ -9,6 +9,7 @@ body{
        padding: 20px;
        display: flex;
        justify-content: space-between;
+       align-items: center;
    }
    .navbar a{
        color: #333;
@@ -16,6 +17,7 @@ body{
        margin-right: 10px;
        font-size: 18px;
        transition: color 0.3s ease;  
+       align-items: center;
    }
    .navbar a hover{
        color: #ffcc00;
@@ -23,6 +25,27 @@ body{
    .div1 img{
     width: 100%;
    }
+   .div1 h2{
+    position: absolute;
+    text-align: right;
+    top: 10%;
+    font-size: 50px;
+    color: azure;
+   }
+   .div1 button{
+    position: absolute;
+    text-transform: uppercase;
+    
+    top: 35%;
+    right: 30%;
+    font-size: 60px;
+    background-color: rgb(219, 154, 74);
+   }
+   .div1 a{
+    text-decoration: none;
+    color: black;
+   }
+
    .cardisplays{
     display: flex;
     flex-direction: row;
@@ -42,6 +65,10 @@ body{
    .display a{
     text-decoration: none;
     color: black;
+    color: #ccc;
+    font-weight: bold;
+    font-size: 20px;
+    align-items: baseline;
    }
    .maincointainer{
     background-image: url(images/wave-haikei.png);
@@ -58,7 +85,50 @@ body{
     width: 100vw;
     height: 100vh;
 }
+.cointainer form{
+    top: 30%;
+}
 form label{
     color: white;
     font-size: 30px;
+    
 }
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+  }
+  
+  .footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .footer-content p {
+    margin: 0;
+  }
+  
+  .footer-links {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .footer-links li {
+    display: inline-block;
+    margin-right: 20px;
+  }
+  
+  .footer-links li:last-child {
+    margin-right: 0;
+  }
+  
+  .footer-links a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .footer-links a:hover {
+    text-decoration: underline;
+  }
