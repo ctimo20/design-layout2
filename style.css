@@ -82,8 +82,8 @@ body{
     list-style-type: none;
    }
 body{
-    width: 100vw;
-    height: 100vh;
+    width: 100%;
+    height: 100%;
 }
 .cointainer form{
     top: 30%;
